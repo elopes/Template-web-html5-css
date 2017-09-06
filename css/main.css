@@ -1,0 +1,158 @@
+body{
+	/* background-color: rgba(36,75,177,0.5); */
+	font-family: "Arial";
+	color: #666666;
+	/*background-image: url(../image/Vitral.jpg);*/
+	
+	
+}
+header,footer, .container
+{
+	width: 1000px;
+	margin: auto;
+}
+a{
+	color: #5e9dd2;
+}
+
+a:hover{
+	color: #1a6b5d;
+}
+
+a:active{
+	color: #90262a;
+}
+
+
+
+header .mainmenu ul li
+{
+	display: inline-block ;
+	font-family: "Times New Roman";
+	border-right: 1px solid #CCCCCC ;
+	border-right-style: ridge;
+	padding: 1px 2px;
+	font-size: 14px;
+	margin-bottom: 8px;
+
+}
+	
+header .mainmenu ul li:last-child
+{
+	border-right: none;
+}
+
+header .mainmenu ul li a
+{
+	text-decoration: none;
+	margin: 5px;
+	padding: 3px;
+
+}
+
+header .mainmenu ul li a.active
+{
+	border-bottom: 1px solid #5e9dd2 ;
+	padding-bottom: 10px;
+}
+
+
+ header .mainmenu ul li h2
+{
+	display: inline ;
+	font-weight: 200;
+}
+
+h3,h2,h1{
+	font-family: "Times New Roman";
+}
+
+h2
+{
+	
+	color: #235c8c;
+}
+
+.container .images a, .container .resolutions .experience a ,.introduction a   
+{
+	
+	text-decoration: none; 
+}
+
+header .mainmenu ul,header .logo h1,header .logo, header .mainmenu
+{
+display: inline;	
+}
+
+header .logo
+{
+	margin-top: 30px;
+	float: left;
+}
+header .mainmenu 
+{
+	display: inline-block;
+	margin-top: 100px;  			
+}
+
+header > div
+{
+
+	border-bottom: 1px solid #cccccc ;
+	/*padding: 1px;*/
+	text-align: right;
+}
+
+.container .images .image
+{
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	
+}
+	
+
+div.container div.resolutions div.experience  , div.container div.resolutions div.social-media 
+{
+	display: inline-block;	
+}
+
+.container .resolutions .experience
+{
+	width: 70%;
+	padding-right: 15px;
+	border-right: 1px solid #cccccc ;
+}
+
+.container p
+{
+	font-size: 20px;
+}
+
+.container .resolutions 
+{
+	border-top: 1px solid #cccccc ;
+	padding-top: 20px;
+	
+}
+
+.container .resolutions .social-media 
+{
+	vertical-align: top;
+	margin-top: 5px;
+	padding-left: 10px;
+}
+
+footer
+{
+	text-align: center;
+	background-color: #4f80a8;
+	color: #ffffff;
+	margin-top: 20px;
+	padding: 20px;
+	
+}
+	
+	
+
+
